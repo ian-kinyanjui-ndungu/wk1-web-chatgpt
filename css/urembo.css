@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color:steelblue;
+}
+table{
+    background-color: tomato;
+    width :80%;
+}
+
+td, th{
+    border: 1px solid whitesmoke;
+    padding: 10px;
+}
+
+body{
+    background: bisque;
+    justify-content: space-around;
+}
+
+pre{
+    padding: 10px;
+    background-color: lightgrey;
+}
