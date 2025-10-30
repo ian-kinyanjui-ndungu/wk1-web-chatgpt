@@ -1,0 +1,29 @@
+.form-box{
+    width: 100%;
+    max-width: 320px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-family: sans-serif;
+}
+
+form{
+    width:100%;
+}
+
+input,button{
+    display: block;
+    width: 100%;
+    margin: 10px,0;
+    padding: 8px;
+}
+
+button{
+    background-color: #5c6bc0;
+    color: white;
+    border:none;
+    padding: 10px;
+}
