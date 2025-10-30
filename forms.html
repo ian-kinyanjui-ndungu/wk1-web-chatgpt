@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="form-box">
-        <form>
+        <form method="post" action ="">
             <h2> Create an Account</h2>
             <label for="fname">First Name: </label>
             <input type="text" id = "fname" name ="fname" required placeholder="Peter">
@@ -23,6 +23,24 @@
             <input type ="password" id="confirm" name="confirm" placeholder="******" required>
             <label for="DOB">date of birth</label>
             <input type="date" id="DOB" name="DOB placeholder= "dd/mm/yyyy" required>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" required>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" required>
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" required>
+            <label for="course">Course Selected</label>
+            <select name ="course" id="course">
+                <option value="web development">Web Development</option>
+                <option value="data science">Data Science</option>
+                <option value="cyber security">Cyber Security</option>
+                <option value="graphic design">Graphic Design</option>
+                <option value ="data Analytics">Data Analytics</option>
+                <option value="Data engineering"> Data Engineering</option>
+            </select>
+
+            <label for="Upload"> Upload Picture</label>
+            <input type="file" id="upload" name=" upload" required>
             <button type="submit">Register</button>
 
         </form>
